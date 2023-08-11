@@ -1,0 +1,105 @@
+body{
+    font-family: 'open sans', sans-serif;
+    margin:0 auto;
+    width: 960px;
+}
+
+h1, h2, h3{
+    color: blue;
+}
+
+.front-pic{
+    float: left;
+    margin-right: 20px;
+}
+
+aside{
+    float:right;
+    background-color: blueviolet;
+    text-align: center;
+    width: 320px;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: 20px;
+}
+ul{
+    list-style-image: url("images/tiny-animal.jpg");
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+a:hover{
+    color: black;
+}
+
+header{
+    background-image: url(images/background-image.jpg);
+    height: 100px;
+    margin-bottom: 70px;
+}
+
+header h1{
+    color:blue;
+    margin-left: 30px;
+    margin-left: 30px;
+    font-size: 50px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding:0;
+    margin-left: 160px;
+}
+
+nav li{
+    display: inline;
+    float: left;
+}
+
+nav a:link, nav a:visited{
+background-color: blue;
+color: white;
+padding: 10px 0;
+display: block;
+width: 160px;
+text-align: center;
+}
+
+nav a:hover{
+    background-color: black;
+}
+
+footer{
+    margin:20px 0;
+}
+
+footer nav a:link, footer nav a:visited{
+    background-color: white;
+    color: gray;
+    padding: 10px 0;
+    display: block;
+    width: 160px;
+    text-align: center;
+    }
+
+    footer nav a:hover{
+        color: black;
+    }
+   
+    button{
+        margin-top: 10px;
+        margin-left: 2px;
+        text-align: center;
+        background-color: lightblue;
+        border-style: hidden;
+        border-radius: 5px;
+        color:black;
+        font-weight: bold;
+    }
+    button:hover{
+        background-color: rgb(6, 6, 75);
+        color:white;
+    }

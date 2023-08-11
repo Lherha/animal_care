@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="uft-8">
+<title>Animal Survey</title>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="issues.html">Issues</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="survey.html">Survey</a></li>
+        </ul>
+    </nav>
+    <br/>
+
+    <h1>Animal Survey</h1>
+    <aside>
+    <figure>
+    <img src="images/my-pet.jpg" alt="my pet">
+    </figure>
+    </aside>
+   
+    <form action="animal-care.php" method="post">
+        
+    <fieldset>
+        <legend>Personal Information</legend>
+        Your name <br/>
+        <input type="text" name="name" required size="40"/> <br/>
+        Email Address <br/>
+        <input type="email" name="email" required size="40" placeholder="enter a valid email address"/>
+        <br/>
+    </fieldset>
+
+<fieldset>
+    <legend>Your Animal Preference</legend>
+    Do you own a pet?<br/>
+    <input type="radio" name="pet" value="yes"/> yes<br/>
+    <input type="radio" name="pet" value="no"/>no<br/>
+    <br/>
+
+    What is your favourite or preferred type of pet?
+    <select name="favourite">
+    <option value="">please select a pet</option>
+    <option value="dog">Dog</option>
+    <option value="cat">Cat</option>
+    <option value="bird">Bird</option>
+    <option value="pony">Pony</option>
+    <option value="fish">Fish</option>
+    </select> <br/>
+
+    <br/>
+    What type of pet would you like to have?<br/>
+    <input type="text" name="name" size="40" required/> <br/>
+    <br/>
+
+    Which type of pet would you absolutely never chose to have?<br/>
+    <input type="text" name="name" required size="40"/>
+   
+
+</fieldset>
+<button>SUBMIT</button>
+    </form>
+
+</body>
+</html>
